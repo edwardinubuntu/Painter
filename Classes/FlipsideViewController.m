@@ -80,7 +80,8 @@
 	[blueSlider setValue:1.0]; // set the blue slider’s value to 1
 
 	// update colorView to reflect the new slider values
-	[colorView setBackgroundColor:[UIColor whiteColor]];
+	UIColor *color = [UIColor colorWithRed:redSlider.value green:greenSlider.value blue:blueSlider.value alpha:1.0];
+	[colorView setBackgroundColor:[UIColor color]];
 	[UIView commitAnimations]; // end animation block // end method erase
 }
 	
@@ -109,7 +110,6 @@
 
 - (IBAction)updateColor:sender {
 	UIColor *color = [UIColor colorWithRed:redSlider.value green:greenSlider.value blue:blueSlider.value alpha:1.0];
-	
 	[colorView setBackgroundColor:color];
 }
 
