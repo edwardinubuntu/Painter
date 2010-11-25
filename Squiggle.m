@@ -3,7 +3,7 @@
 //  Painter
 //
 //  Created by Edward Chiang on 2010/11/20.
-//  Copyright 2010 GSS. All rights reserved.
+//  Copyright 2010 Edward. All rights reserved.
 //
 
 #import "Squiggle.h"

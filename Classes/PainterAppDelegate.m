@@ -3,7 +3,7 @@
 //  Painter
 //
 //  Created by Edward Chiang on 2010/11/20.
-//  Copyright GSS 2010. All rights reserved.
+//  Copyright Edward 2010. All rights reserved.
 //
 
 #import "PainterAppDelegate.h"
