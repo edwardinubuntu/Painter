@@ -3,7 +3,7 @@
 //  Painter
 //
 //  Created by Edward Chiang on 2010/12/10.
-//  Copyright 2010 Edward. All rights reserved.
+//  Copyright 2010 Edward in Action. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

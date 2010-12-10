@@ -48,8 +48,8 @@
 
 - (IBAction)done:(id)sender {
 	// set the new values for color and line width
-	// [self.delegate setColor:colorView.backgroundColor];
-	// [self.delegate setLineWidth:widthSlider.value];
+	[self.delegate setColor:colorView.backgroundColor];
+	[self.delegate setLineWidth:widthSlider.value];
 	if (clearScreen) {
 		[self.delegate resetView];
 	}
