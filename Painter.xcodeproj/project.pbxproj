@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C09D0F712B2353200F3011C /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C09D0F612B2353200F3011C /* MainView.m */; };
 		1C4F84961296D99B00FBF270 /* Squiggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F84951296D99B00FBF270 /* Squiggle.m */; };
 		1D3623260D0F684500981E51 /* PainterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PainterAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C09D0F512B2353200F3011C /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		1C09D0F612B2353200F3011C /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		1C4F84941296D99B00FBF270 /* Squiggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Squiggle.h; sourceTree = "<group>"; };
 		1C4F84951296D99B00FBF270 /* Squiggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Squiggle.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,8 @@
 				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
 				1C4F84941296D99B00FBF270 /* Squiggle.h */,
 				1C4F84951296D99B00FBF270 /* Squiggle.m */,
+				1C09D0F512B2353200F3011C /* MainView.h */,
+				1C09D0F612B2353200F3011C /* MainView.m */,
 			);
 			name = "Main View";
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
 				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
 				1C4F84961296D99B00FBF270 /* Squiggle.m in Sources */,
+				1C09D0F712B2353200F3011C /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

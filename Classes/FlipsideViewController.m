@@ -19,7 +19,7 @@
 @synthesize colorView;
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+    // [super viewDidLoad];
     self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor];      
 }
 
@@ -48,8 +48,8 @@
 
 - (IBAction)done:(id)sender {
 	// set the new values for color and line width
-	[self.delegate setColor:colorView.backgroundColor];
-	[self.delegate setLineWidth:widthSlider.value];
+	// [self.delegate setColor:colorView.backgroundColor];
+	// [self.delegate setLineWidth:widthSlider.value];
 	if (clearScreen) {
 		[self.delegate resetView];
 	}
@@ -80,8 +80,7 @@
 	[blueSlider setValue:1.0]; // set the blue slider’s value to 1
 
 	// update colorView to reflect the new slider values
-	UIColor *color = [UIColor colorWithRed:redSlider.value green:greenSlider.value blue:blueSlider.value alpha:1.0];
-	[colorView setBackgroundColor:[UIColor color]];
+	[colorView setBackgroundColor:[UIColor whiteColor]];
 	[UIView commitAnimations]; // end animation block // end method erase
 }
 	
