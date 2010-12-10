@@ -11,6 +11,10 @@
 
 @implementation MainViewController
 
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+	return (toInterfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	[super viewDidLoad];	
