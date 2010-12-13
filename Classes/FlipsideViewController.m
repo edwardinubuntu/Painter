@@ -48,10 +48,10 @@
 
 - (IBAction)done:(id)sender {
 	// set the new values for color and line width
-	[self.delegate setColor:colorView.backgroundColor];
-	[self.delegate setLineWidth:widthSlider.value];
+	[(MainViewController *)self.delegate setColor:colorView.backgroundColor];
+	[(MainViewController *)self.delegate setLineWidth:widthSlider.value];
 	if (clearScreen) {
-		[self.delegate resetView];
+		[(MainViewController *)self.delegate resetView];
 	}
 	[self.delegate flipsideViewControllerDidFinish:self];	
 }

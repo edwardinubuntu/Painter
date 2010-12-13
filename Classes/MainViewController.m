@@ -77,7 +77,8 @@
 
 - (void)setLineWidth:(float)width {
 	MainView *view = (MainView *)self.view;
-	view.lineWidth = width;
+	[view setLineWidth:width];
+	NSLog(@"Line width: %f", view.lineWidth);
 }
 
 - (void)resetView {

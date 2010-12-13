@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C09D0F712B2353200F3011C /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C09D0F612B2353200F3011C /* MainView.m */; };
 		1C4F84961296D99B00FBF270 /* Squiggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F84951296D99B00FBF270 /* Squiggle.m */; };
+		1CA496B912B4801700F85468 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA496B812B4801700F85468 /* icon.png */; };
 		1D3623260D0F684500981E51 /* PainterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PainterAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -26,6 +27,7 @@
 		1C09D0F612B2353200F3011C /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		1C4F84941296D99B00FBF270 /* Squiggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Squiggle.h; sourceTree = "<group>"; };
 		1C4F84951296D99B00FBF270 /* Squiggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Squiggle.m; sourceTree = "<group>"; };
+		1CA496B812B4801700F85468 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* PainterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* PainterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterAppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1CA496B812B4801700F85468 /* icon.png */,
 				32CA4F630368D1EE00C91783 /* Painter_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -198,6 +201,7 @@
 				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
 				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				1CA496B912B4801700F85468 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
