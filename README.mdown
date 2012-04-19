@@ -1,0 +1,20 @@
+## Painter
+
+The Painter app turns the iPhone screen into a virtual canvas. The user paints by dragging one or more fingers across the screen. The line color and thickness can be set by touching the info button in the lower-right corner of the screen. The control panel includes a slider for line width and red, green and blue sliders for line color. As the line width slider is moved from left to right, the width of the line increases. At the bottom of the screen, two buttons allow the user to turn a finger into an eraser or clear the screen entirely. At any point while painting, the user can shake the iPhone to clear the entire drawing from the screen.
+
+## How to use
+
+* Downlaod the project or use command line **git clone**.
+* Get Started to use it, or open MainViewController to know more.
+
+## License
+
+This code is distributed under the terms and conditions of the MIT license.
+
+ Copyright (C) 2010 Edward Chiang
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
