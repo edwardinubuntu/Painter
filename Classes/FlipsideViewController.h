@@ -22,13 +22,13 @@
 
 
 @interface FlipsideViewController : UIViewController {
-	id <FlipsideViewControllerDelegate> delegate;
-	IBOutlet UISlider *redSlider;
-	IBOutlet UISlider *greenSlider;
-	IBOutlet UISlider *blueSlider;
-	IBOutlet UISlider *widthSlider;
-	IBOutlet UIView *colorView;
-	BOOL clearScreen;
+  id <FlipsideViewControllerDelegate> delegate;
+  IBOutlet UISlider *redSlider;
+  IBOutlet UISlider *greenSlider;
+  IBOutlet UISlider *blueSlider;
+  IBOutlet UISlider *widthSlider;
+  IBOutlet UIView *colorView;
+  BOOL clearScreen;
 }
 
 // declare delegate and outlets as properties

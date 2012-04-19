@@ -20,10 +20,10 @@
 #import "Squiggle.h"
 
 @interface MainView : UIView {
-	NSMutableDictionary *squiggles;	// sguiggles in progress
-	NSMutableArray *finishedSquiggles;	// finished squiggles
-	UIColor *color;		// the current drawing color
-	float lineWidth;	// the current drawing line width
+  NSMutableDictionary *squiggles;	// sguiggles in progress
+  NSMutableArray *finishedSquiggles;	// finished squiggles
+  UIColor *color;		// the current drawing color
+  float lineWidth;	// the current drawing line width
 }
 
 // declare color and linewidth as properties

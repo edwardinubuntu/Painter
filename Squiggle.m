@@ -18,24 +18,26 @@
 
 // initialize the Squiggle object
 - (id)init {
-	if (self = [super init]){
-		points = [[NSMutableArray alloc]init];
-		strokeColor = [[UIColor blackColor] retain];
-	}
-	return self;
+  if (self = [super init]){
+    points = [[NSMutableArray alloc]init];
+    strokeColor = [[UIColor blackColor] retain];
+  }
+  return self;
 }
-
-- (void)addPoint:(CGPoint)point {
-	// encode the point in an NSValue so we can put it in an NSArray
-	NSValue *value = [NSValue valueWithBytes:&point objCType:@encode(CGPoint)];
-	[points addObject:value];
-} // end method
 
 // release Squiggle's memory
 - (void) dealloc {
-	[strokeColor release];
-	[points release];
-	[super dealloc];
+  [strokeColor release];
+  [points release];
+  [super dealloc];
+}
+
+#pragma mark - Public
+
+- (void)addPoint:(CGPoint)point {
+  // encode the point in an NSValue so we can put it in an NSArray
+  NSValue *value = [NSValue valueWithBytes:&point objCType:@encode(CGPoint)];
+  [points addObject:value];
 }
 
 @end

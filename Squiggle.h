@@ -20,12 +20,12 @@
 
 
 @interface Squiggle : NSObject {
-	
-	NSMutableArray *points;	// the points that make up the Squiggle
-	UIColor *strokeColor;	// the color of this Squiggle
-	float lineWidth;	//	the line width for this Squiggle
-	
-	// end instance variable declartion
+  
+  NSMutableArray *points;	// the points that make up the Squiggle
+  UIColor *strokeColor;	// the color of this Squiggle
+  float lineWidth;	//	the line width for this Squiggle
+  
+  // end instance variable declartion
 }
 
 // declare strokeColor, lineWidth and points as properties
