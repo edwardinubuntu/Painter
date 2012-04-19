@@ -7,7 +7,7 @@
 //
 
 #import "FlipsideViewController.h"
-#import "Squiggle.h";
+#import "Squiggle.h"
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
 	
