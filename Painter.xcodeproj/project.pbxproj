@@ -7,43 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C09D0F712B2353200F3011C /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C09D0F612B2353200F3011C /* MainView.m */; };
-		1C4F84961296D99B00FBF270 /* Squiggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F84951296D99B00FBF270 /* Squiggle.m */; };
-		1CA496B912B4801700F85468 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA496B812B4801700F85468 /* icon.png */; };
-		1D3623260D0F684500981E51 /* PainterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PainterAppDelegate.m */; };
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1C236C3A15408BD40047F026 /* PainterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C236C3815408BD40047F026 /* PainterAppDelegate.m */; };
+		1C236C4015408BFA0047F026 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C236C3C15408BFA0047F026 /* FlipsideViewController.m */; };
+		1C236C4115408BFA0047F026 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C236C3E15408BFA0047F026 /* MainViewController.m */; };
+		1C236C4E15408C370047F026 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C236C4C15408C370047F026 /* MainView.m */; };
+		1C236C5115408C420047F026 /* Squiggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C236C4F15408C420047F026 /* Squiggle.m */; };
+		1C236C5615408D920047F026 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C236C4415408C230047F026 /* FlipsideView.xib */; };
+		1C236C5715408D920047F026 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C236C4515408C230047F026 /* MainView.xib */; };
+		1C236C5815408D920047F026 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C236C4615408C230047F026 /* MainWindow.xib */; };
+		1C236C5F15408F3F0047F026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C236C5E15408F3F0047F026 /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
-		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
-		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
 		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
-		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
-		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C09D0F512B2353200F3011C /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
-		1C09D0F612B2353200F3011C /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
-		1C4F84941296D99B00FBF270 /* Squiggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Squiggle.h; sourceTree = "<group>"; };
-		1C4F84951296D99B00FBF270 /* Squiggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Squiggle.m; sourceTree = "<group>"; };
-		1CA496B812B4801700F85468 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1C236C3815408BD40047F026 /* PainterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PainterAppDelegate.m; path = Painter/PainterAppDelegate.m; sourceTree = "<group>"; };
+		1C236C3915408BD40047F026 /* PainterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PainterAppDelegate.h; path = Painter/PainterAppDelegate.h; sourceTree = "<group>"; };
+		1C236C3C15408BFA0047F026 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Painter/FlipsideViewController.m; sourceTree = "<group>"; };
+		1C236C3D15408BFA0047F026 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideViewController.h; path = Painter/FlipsideViewController.h; sourceTree = "<group>"; };
+		1C236C3E15408BFA0047F026 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Painter/MainViewController.m; sourceTree = "<group>"; };
+		1C236C3F15408BFA0047F026 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Painter/MainViewController.h; sourceTree = "<group>"; };
+		1C236C4415408C230047F026 /* FlipsideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FlipsideView.xib; path = Painter/FlipsideView.xib; sourceTree = "<group>"; };
+		1C236C4515408C230047F026 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainView.xib; path = Painter/MainView.xib; sourceTree = "<group>"; };
+		1C236C4615408C230047F026 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = Painter/MainWindow.xib; sourceTree = "<group>"; };
+		1C236C4C15408C370047F026 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Painter/MainView.m; sourceTree = "<group>"; };
+		1C236C4D15408C370047F026 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = Painter/MainView.h; sourceTree = "<group>"; };
+		1C236C4F15408C420047F026 /* Squiggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Squiggle.m; path = Painter/Squiggle.m; sourceTree = "<group>"; };
+		1C236C5015408C420047F026 /* Squiggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Squiggle.h; path = Painter/Squiggle.h; sourceTree = "<group>"; };
+		1C236C5915408DD90047F026 /* Painter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Painter-Info.plist"; sourceTree = "<group>"; };
+		1C236C5D15408F250047F026 /* Painter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Painter_Prefix.pch; sourceTree = "<group>"; };
+		1C236C5E15408F3F0047F026 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* PainterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PainterAppDelegate.h; path = Classes/PainterAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* PainterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PainterAppDelegate.m; path = Classes/PainterAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Painter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Painter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		280E754A0DD40C5E005A515E /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
-		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
-		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
-		289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideViewController.h; path = Classes/FlipsideViewController.h; sourceTree = "<group>"; };
-		289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Classes/FlipsideViewController.m; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* Painter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Painter_Prefix.pch; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Painter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Painter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,34 +69,26 @@
 		1C236C37154087330047F026 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1D3623240D0F684500981E51 /* PainterAppDelegate.h */,
-				1D3623250D0F684500981E51 /* PainterAppDelegate.m */,
-				289233A00DB2D0730083E9F9 /* Main View */,
-				281C6CD70DB2D82200F60ACC /* Flipside View */,
+				1C236C3815408BD40047F026 /* PainterAppDelegate.m */,
+				1C236C3915408BD40047F026 /* PainterAppDelegate.h */,
+				1C236C4C15408C370047F026 /* MainView.m */,
+				1C236C4D15408C370047F026 /* MainView.h */,
+				1C236C4F15408C420047F026 /* Squiggle.m */,
+				1C236C5015408C420047F026 /* Squiggle.h */,
+				1C236C3B15408BE10047F026 /* ViewControllers */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		281C6CD70DB2D82200F60ACC /* Flipside View */ = {
+		1C236C3B15408BE10047F026 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */,
-				289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */,
+				1C236C3C15408BFA0047F026 /* FlipsideViewController.m */,
+				1C236C3D15408BFA0047F026 /* FlipsideViewController.h */,
+				1C236C3E15408BFA0047F026 /* MainViewController.m */,
+				1C236C3F15408BFA0047F026 /* MainViewController.h */,
 			);
-			name = "Flipside View";
-			sourceTree = "<group>";
-		};
-		289233A00DB2D0730083E9F9 /* Main View */ = {
-			isa = PBXGroup;
-			children = (
-				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
-				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
-				1C4F84941296D99B00FBF270 /* Squiggle.h */,
-				1C4F84951296D99B00FBF270 /* Squiggle.m */,
-				1C09D0F512B2353200F3011C /* MainView.h */,
-				1C09D0F612B2353200F3011C /* MainView.m */,
-			);
-			name = "Main View";
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
@@ -116,9 +106,9 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				1CA496B812B4801700F85468 /* icon.png */,
-				32CA4F630368D1EE00C91783 /* Painter_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
+				1C236C5E15408F3F0047F026 /* main.m */,
+				1C236C5D15408F250047F026 /* Painter_Prefix.pch */,
+				1C236C5915408DD90047F026 /* Painter-Info.plist */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -126,10 +116,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
-				280E754B0DD40C5E005A515E /* MainView.xib */,
-				280E754C0DD40C5E005A515E /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* Painter-Info.plist */,
+				1C236C4415408C230047F026 /* FlipsideView.xib */,
+				1C236C4515408C230047F026 /* MainView.xib */,
+				1C236C4615408C230047F026 /* MainWindow.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -197,10 +186,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
-				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
-				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
-				1CA496B912B4801700F85468 /* icon.png in Resources */,
+				1C236C5615408D920047F026 /* FlipsideView.xib in Resources */,
+				1C236C5715408D920047F026 /* MainView.xib in Resources */,
+				1C236C5815408D920047F026 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +199,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* PainterAppDelegate.m in Sources */,
-				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
-				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
-				1C4F84961296D99B00FBF270 /* Squiggle.m in Sources */,
-				1C09D0F712B2353200F3011C /* MainView.m in Sources */,
+				1C236C3A15408BD40047F026 /* PainterAppDelegate.m in Sources */,
+				1C236C4015408BFA0047F026 /* FlipsideViewController.m in Sources */,
+				1C236C4115408BFA0047F026 /* MainViewController.m in Sources */,
+				1C236C4E15408C370047F026 /* MainView.m in Sources */,
+				1C236C5115408C420047F026 /* Squiggle.m in Sources */,
+				1C236C5F15408F3F0047F026 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
